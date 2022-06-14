@@ -4,29 +4,14 @@
     font-size: 30px;
     font-weight: bolder;
     padding: 17px;
+    padding-left: 920px;
     
 }
 
 .butao {
     display: flex;
     justify-content: end;
-    margin-top: -58px;
+    margin-top: -85px;
     margin-right: 20px;
     
-}
-
-button.cd {
-    padding: 10px;
-    background-color: rgb(74, 74, 87);
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 30px;
-}
-
-button.entrar {
-    padding: 10px;
-    background-color: rgb(74, 74, 87);
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 30px;
 }

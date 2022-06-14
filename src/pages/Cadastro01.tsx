@@ -18,7 +18,7 @@ const Cadastro01= function() {
 
         return (
         <div className='cadastro01'>
-          <h1 className='titulo'>Ydust</h1>
+         <img src={Img} alt="livro" />
           <div className='cadastro'>
             <input type="text" placeholder='Nome de usuário' className='campo'/>
             <input type="password" placeholder='Digite sua senha' className='campo'/>

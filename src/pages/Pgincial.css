@@ -28,13 +28,14 @@ button:hover{
 }
 
 .Img01 {
-  margin-left: 20px;
+    
+    margin-left: -300px;
 }
 
 .Introducao {
     color: aliceblue;
     margin-top: -40px;
-    margin-left: 20px;
+    margin-left: 120px;
 }
 
 .pesquisar{

@@ -45,8 +45,3 @@ body {
     border-radius: 30px;
     width: calc(100% - 40px);
   }
-
-  button:hover {
-    background-color: rgb(110, 110, 110);
-    color:aliceblue;
-  }

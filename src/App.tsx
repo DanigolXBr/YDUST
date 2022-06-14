@@ -3,12 +3,13 @@ import Pg01Page from './pages/pg01';
 import Cadastro01 from './pages/Cadastro01';
 import Pgincial from './pages/Pgincial';
 import Cabecalho from './componentes/Cabecalho';
+import Arame from './componentes/Arame'
 
 function App (){
   return (
     <>
       <Cabecalho/>
-      <Pgincial/>
+      <Cadastro01/>
     </>
   );
 };
