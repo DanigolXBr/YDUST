@@ -21,9 +21,13 @@ const Cadastro01= function() {
          <img src={Img} alt="Livro" />
           <div className='cadastro'>
             <input type="text" placeholder='Nome de usuário' className='campo'/>
+            <br />
             <input type="password" placeholder='Digite sua senha' className='campo'/>
+            <br />
             <input type="text" placeholder='Digite seu Email' className='campo' />
+            <br />
             <input type="text" placeholder='Digite seu CPF' className='campo' />
+            <br />
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
             <Botao texto='Salvar' clique={botaoSalvarClicado}/>
           </div>        
