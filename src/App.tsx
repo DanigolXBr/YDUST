@@ -8,7 +8,7 @@ function App (){
   return (
     <>
       <Cabecalho/>
-      <Pgincial/>
+      <Cadastro01/>
     </>
   );
 };
