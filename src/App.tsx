@@ -11,7 +11,7 @@ function App (){
     <>
       <Cabecalho/>
       <Arame/>
-      <Pgincial/>
+      <Cadastro01/>
     </>
   );
 };
