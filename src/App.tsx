@@ -2,16 +2,18 @@ import './App.css';
 import Cadastro01 from './pages/Cadastro01';
 import Pgincial from './pages/Pgincial';
 import Cabecalho from './componentes/Cabecalho';
-import Arame from './componentes/Arame'
-import Pg01Page from './pages/pg01';
-import Pgprofessores from './pages/Pgprofessor';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App (){
   return (
     <>
-      <Cabecalho/>
-      <Arame/>
-      <Cadastro01/>
+      <BrowserRouter>
+        <Cabecalho/>
+        <Routes>
+          <Route path='/' element={<Pgincial />} />
+          <Route path='/cadastro' element={<Cadastro01/>} />
+        </Routes>
+      </BrowserRouter>      
     </>
   );
 };
