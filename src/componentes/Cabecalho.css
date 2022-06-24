@@ -1,24 +1,18 @@
-.cabe {
+.cab {
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
     font-size: 30px;
+    padding: 19px;
     font-weight: bolder;
-    padding: 17px;
-    padding-left: 920px;
-  
-    
-}
-
-.butao {
     display: flex;
-    justify-content: end;
-    margin-top: -55px;
-    margin-right: 20px;
-    margin-bottom: -45px;
+    flex-direction: row;
+    justify-content: center;
+    
     
 }
 
-button.cd,.entrar {
+
+button{
     padding: 8px;
     width: 90px;
     border-radius: 22px;
@@ -26,8 +20,15 @@ button.cd,.entrar {
     color: aliceblue;
     background-color: rgb(74, 74, 87);
     box-shadow: black 1px 2px 2px 2px;
-
 }
+
+.butao {
+    display: flex;
+    justify-content: end;
+    margin-top: -57px;
+    margin-right: 50px;
+}
+
 
 button:hover {
     background-color: rgb(68, 68, 68);

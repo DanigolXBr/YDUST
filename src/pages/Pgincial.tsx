@@ -2,7 +2,7 @@ import './Pgincial.css';
 import Img01 from '../componentes/Imagens/ooooo.png';
 import Img02 from '../componentes/Imagens/study-tools.png';
 import Cabecalho from '../componentes/Cabecalho';
-import Arame from '../componentes/Arame';
+
 
 const Pgincial = function (){
     return (

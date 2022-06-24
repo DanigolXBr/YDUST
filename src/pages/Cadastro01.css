@@ -1,22 +1,48 @@
 body {
-    
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,27,147,1) 43%, rgba(0,212,255,1) 97%);
-  
+
 }
 
-  .cadastro01 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
 
-  .cadastro {
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.226);
+.Cabecalho {
+  background-color: blue;
+  height: 50px;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.PainelBotoesLogin {
+  width: 200px;
+}
+
+.PainelBotoesLogin button {
+  width: 100px;
+}
+
+.NomeSite {
+  background-color: aquamarine;
+  flex-grow: 1;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.CadastroPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.CadastroPage .Logotipo {
+  margin: 20px 0px;
+  width: 250px;
+}
+
+.CadastroPage .Formulario {
+  background-color: rgba(0, 0, 0, 0.226);
     box-shadow: 5px 5px 5px black;
     padding: 30px;
     width: 400px;
@@ -25,34 +51,13 @@ body {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-      
-  }
+}
 
-  .cadastro01 {
-    margin-top: -60px;
-  }
-
-  .campo {
-    background-color: rgb(74, 74, 87);
+.campo {
+  background-color: rgb(74, 74, 87);
     padding: 8px;
     color: aliceblue;
     border-radius: 30px;
     width: calc(100% - 40px);
-  }
-
-  button.salvar:hover {
-    background-color: rgb(68, 68, 68);
-    color:aliceblue;
-  }
-
-  button.salvar{
-    margin-top: 20px;
-    padding: 8px;
-    width: 90px;
-    border-radius: 22px;
-    border: solid rgb(48, 48, 48) 1px;
-    color: aliceblue;
-    background-color: rgb(74, 74, 87);
-    box-shadow: black 1px 2px 2px 2px;
-
-  }
+    margin-bottom: 20px;
+}

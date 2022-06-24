@@ -1,40 +1,41 @@
+import './Cadastro01.css';
 import { useState } from 'react';
-import Img from '../componentes/Imagens/ooooo.png'
 import Botao from '../componentes/Botao';
-import './Cadastro01.css'
-import arame from '../componentes/Arame'
-import Pg01Page from './pg01';
+import Img01 from '../componentes/Imagens/ooooo.png'
+
 
 enum Estado {
   inicial,
   
 };
 
-const Cadastro01= function() {
-      const [estado,setEstado] = useState (Estado.inicial);
 
-     
-        return (
-         
-            <div className='cadastro01'>
-            
-            <img src={Img} alt="Livro" />
-              
-              <div className='cadastro'>
-                <input type="text" placeholder='Nome de usuário' className='campo'/>
-                <br />
-                <input type="password" placeholder='Digite sua senha' className='campo'/>
-                <br />
-                <input type="text" placeholder='Digite seu Email' className='campo' />
-                <br />
-                <input type="text" placeholder='Digite seu CPF' className='campo' />
-                <br />
-                <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
-                <button className='salvar'>Salvar</button>
-              </div>        
+
+const Cadastro01 = function () {
+  const [estado,setEstado] = useState (Estado.inicial);
+
+      const botaoSalvarClicado = function () {
+      };
+
+  return (
+    <>
+      
+        <div className='CadastroPage'>
+          <img className='Logotipo' src={Img01} alt='ydust' />
+          <div className='Formulario'>
+            <input type="text" placeholder='Nome de usuário' className='campo'/>
+            <input type="password" placeholder='Digite sua senha' className='campo'/>
+            <input type="text" placeholder='Digite seu Email' className='campo' />
+            <input type="text" placeholder='Digite seu CPF' className='campo' />
+
+            <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
+            <Botao texto='Salvar' clique={botaoSalvarClicado}/>
           </div>
-    );
+        </div>
 
-}
+  
+    </>
+  );
+};
 
 export default Cadastro01;
