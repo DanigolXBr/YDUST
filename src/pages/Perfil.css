@@ -1,0 +1,39 @@
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 8%, rgba(119,32,127,1) 51%, rgba(7,128,184,1) 85%);
+}
+
+.fperfil {
+    width: 100px;
+} 
+
+.cadastro {
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:grey;
+    font-weight: bold;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+img {
+    width: 500px;
+    margin-right: 300px;
+    margin-left: 30px;
+    
+}
+
+.Redacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    
+
+}
