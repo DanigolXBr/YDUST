@@ -4,29 +4,32 @@
     font-size: 30px;
     font-weight: bolder;
     padding: 17px;
+    padding-left: 920px;
+  
     
 }
 
 .butao {
     display: flex;
     justify-content: end;
-    margin-top: -58px;
+    margin-top: -55px;
     margin-right: 20px;
+    margin-bottom: -45px;
     
 }
 
-button.cd {
-    padding: 10px;
-    background-color: rgb(74, 74, 87);
+button.cd,.entrar {
+    padding: 8px;
+    width: 90px;
+    border-radius: 22px;
+    border: solid rgb(48, 48, 48) 1px;
     color: aliceblue;
-    font-size: 15px;
-    border-radius: 30px;
+    background-color: rgb(74, 74, 87);
+    box-shadow: black 1px 2px 2px 2px;
+
 }
 
-button.entrar {
-    padding: 10px;
-    background-color: rgb(74, 74, 87);
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 30px;
+button:hover {
+    background-color: rgb(68, 68, 68);
+    color:aliceblue;
 }
