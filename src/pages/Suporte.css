@@ -1,0 +1,44 @@
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 8%, rgba(119,32,127,1) 51%, rgba(7,128,184,1) 85%);
+}
+
+.suporte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:grey;
+    font-weight: bold;
+    width: 450px; 
+    margin-top: 100px;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px ;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.insta {
+    color: aliceblue;
+    font-size: 35px;
+}
