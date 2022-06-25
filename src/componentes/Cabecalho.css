@@ -11,26 +11,9 @@
     
 }
 
-
-button{
-    padding: 8px;
-    width: 90px;
-    border-radius: 22px;
-    border: solid rgb(48, 48, 48) 1px;
-    color: aliceblue;
-    background-color: rgb(74, 74, 87);
-    box-shadow: black 1px 2px 2px 2px;
-}
-
 .butao {
     display: flex;
     justify-content: end;
     margin-top: -57px;
     margin-right: 50px;
-}
-
-
-button:hover {
-    background-color: rgb(68, 68, 68);
-    color:aliceblue;
 }
