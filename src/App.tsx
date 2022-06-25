@@ -14,7 +14,7 @@ function App (){
   return (
     <>
       <Cabecalho/>
-      <Suporte/>
+      <Cadastro01/>
      
       
     </>

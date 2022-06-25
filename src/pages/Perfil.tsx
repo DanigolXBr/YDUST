@@ -19,11 +19,12 @@ const Perfil = function () {
             <br />
             Nascimento: 26/08/1983
 
-         
+            <p>Ultima Redação Feita:</p>
 
           </div>   
 
              <div  className = 'Redacao' >
+             <p>Ultima Redação Feita:</p>
           <img src= {Img02} /> 
           </div>   
         </>

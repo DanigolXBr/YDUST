@@ -1,3 +1,4 @@
+import Botao from './Botao';
 import './Cabecalho.css'
 
 const Cabecalho = function () {
@@ -7,7 +8,8 @@ const Cabecalho = function () {
                 Ydust 
             </div>
             <div className='butao'>
-                <button>Login</button>
+                <Botao texto={'Login'}></Botao>
+                
             </div>
         </>
     );
