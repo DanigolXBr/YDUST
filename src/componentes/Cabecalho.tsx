@@ -9,7 +9,7 @@ const Cabecalho = function () {
                 Ydust 
             </div>
             <div className='butao'>
-                <BotaoLink path="/cadastro" texto={'Login'}></BotaoLink>
+                <BotaoLink path="/cadastro">Login</BotaoLink>
                 
             </div>
         </>

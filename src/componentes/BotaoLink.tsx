@@ -1,9 +1,9 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, ReactNode } from "react";
 import { Link } from "react-router-dom";
 import './Botao.css';
 
 type Props = {
-    texto: string;
+    children: ReactNode;
     path: string;
     className?: string;
 };
@@ -11,7 +11,7 @@ type Props = {
 const BotaoLink: FunctionComponent<Props> = function(props) {
     return (
         <>
-            <Link to={props.path} className={`Botao ${props.className}`}>{props.texto}</Link>
+            <Link to={props.path} className={`Botao ${props.className}`}>{props.children}</Link>
         </>
     );
 };
