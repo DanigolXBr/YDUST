@@ -5,7 +5,7 @@ const Nredacao = function () {
         <>
         
         <div>
-            <input type="text" placeholder='Escreva sua redação' className='campo' />
+            <textarea placeholder='Escreva sua redação' className={styles.campo}></textarea>
         </div>
         <div className='butao'>
             <button type='submit'>Enviar</button>
