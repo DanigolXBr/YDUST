@@ -1,6 +1,6 @@
 import './Perfil.css';
-import Img01 from '../componentes/Imagens/foto perfil.png'
-import Img02 from '../componentes/Imagens/Redacao.png'
+import Img01 from '../componentes/Imagens/foto perfil.png';
+import Img02 from '../componentes/Imagens/Redacao.png';
 
 const Perfil = function () {
     return (
