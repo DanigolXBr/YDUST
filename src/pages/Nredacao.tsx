@@ -1,4 +1,4 @@
-import './Nredacao.css';
+import styles from './Nredacao.module.css';
 
 const Nredacao = function () {
     return (
@@ -7,7 +7,7 @@ const Nredacao = function () {
         <div>
             <textarea placeholder='Escreva sua redação' className={styles.campo}></textarea>
         </div>
-        <div className='butao'>
+        <div className={styles.butao}>
             <button type='submit'>Enviar</button>
         </div>
         </>
