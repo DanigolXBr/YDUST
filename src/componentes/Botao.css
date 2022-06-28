@@ -13,8 +13,26 @@
     align-items: center;
    }
 
-.Botao:hover {
-   
-    background-color: rgb(68, 68, 68);
-    color:aliceblue;
-  }
+.Botao:hover { 
+  background-color: rgb(68, 68, 68);
+  color:aliceblue;
+}
+
+.BotaoFAB,
+.BotaoFAB:link,
+.BotaoFAB:hover,
+.BotaoFAB:active,
+.BotaoFAB:visited {
+  width: 56px;
+  height: 56px;
+  background-color: #ff0;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  box-shadow: 1px 2px 10px #000f;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}

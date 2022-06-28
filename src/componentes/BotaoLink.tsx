@@ -6,12 +6,13 @@ type Props = {
     children: ReactNode;
     path: string;
     className?: string;
+    isFAB?: boolean;
 };
 
 const BotaoLink: FunctionComponent<Props> = function(props) {
     return (
         <>
-            <Link to={props.path} className={`Botao ${props.className}`}>{props.children}</Link>
+            <Link to={props.path} className={`${props.isFAB ? 'BotaoFAB' : 'Botao'} ${props.className ?? ''}`}>{props.children}</Link>
         </>
     );
 };
