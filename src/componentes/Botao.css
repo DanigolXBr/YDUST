@@ -1,4 +1,5 @@
 .Botao {
+    display: block;
     padding: 8px;
     width: 90px;
     border-radius: 22px;
@@ -6,6 +7,10 @@
     color: aliceblue;
     background-color: rgb(74, 74, 87);
     box-shadow: black 1px 2px 2px 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
 .Botao:hover {

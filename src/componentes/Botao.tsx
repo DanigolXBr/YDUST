@@ -10,7 +10,7 @@ type Props = {
 const Botao: FunctionComponent<Props> = function(props) {
     return (
         <>
-        <button onClick={props.clique} className={`Botao ${props.className}`}>{props.texto}</button>
+            <button onClick={props.clique} className={`Botao ${props.className}`}>{props.texto}</button>
         </>
 
         

@@ -1,4 +1,5 @@
 import Botao from './Botao';
+import BotaoLink from './BotaoLink';
 import './Cabecalho.css'
 
 const Cabecalho = function () {
@@ -8,7 +9,7 @@ const Cabecalho = function () {
                 Ydust 
             </div>
             <div className='butao'>
-                <Botao texto={'Login'}></Botao>
+                <BotaoLink path="/cadastro" texto={'Login'}></BotaoLink>
                 
             </div>
         </>
