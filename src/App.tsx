@@ -1,19 +1,17 @@
 import './App.css';
 import Cadastro01 from './pages/Cadastro01';
-import Pgincial from './pages/Pgincial';
 import Cabecalho from './componentes/Cabecalho';
-import Pg01Page from './pages/pg01';
-import Perfil from './pages/Perfil';
-
-
+import { Route, Routes } from 'react-router-dom';
+import Nredacao from './pages/Nredacao';
 
 function App (){
   return (
     <>
-      <Cabecalho/>
-      <Cadastro01/>
-     
-      
+        <Cabecalho/>
+        <Routes>
+          <Route path='/cadastro' element={<Cadastro01 />} />
+          <Route path='/nova-redacao' element={<Nredacao />} />
+        </Routes>
     </>
   );
 };
