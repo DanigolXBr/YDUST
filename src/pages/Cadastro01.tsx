@@ -24,8 +24,12 @@ const Cadastro01 = function () {
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
             <BotaoLink path='/perfil'>Salvar</BotaoLink>
            
-          </div>
+          </div >
+          
         </div>
+        <div className='ajudinha'>
+          <a href='/suporte'><img src={sup} alt="" className='suporte01'/></a>
+          </div>
     </>
   );
 };
