@@ -9,22 +9,22 @@ const Perfil = function () {
         <img src= {Img01} className = 'fperfil'/>
         
         <div className='cadastro'>
-            Nome: Carla da Silva
+            Nome: Ana Julia Xavier
             <br />
-            Senha: 3BK!****
+            Senha: 12345678
             <br />
-            Email: carladasilva@gmail.com 
+            Email: anajuliax2017@gmail.com
             <br />
-            CPF: ***.***.201-60
+            CPF: 442.373.380-01
             <br />
-            Nascimento: 26/08/1983
+            Nascimento: 08/05/2005
 
-            <p>Ultima Redação Feita:</p>
+           
 
           </div>   
 
              <div  className = 'Redacao' >
-             <p>Ultima Redação Feita:</p>
+             <p>Última Redação Feita:</p>
           <img src= {Img02} /> 
           </div>   
         </>
