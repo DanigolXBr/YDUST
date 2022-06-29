@@ -9,9 +9,9 @@ button:hover{
 }
 
 .Img01 {
-    margin-top: 100px;
-    margin-left: -300px;
-    margin-bottom: -100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
 }
 
 .Introducao {
@@ -23,7 +23,8 @@ button:hover{
 .pesquisar{
     display: flex;
     justify-content: end;
-    margin-top: -220px;
-    margin-bottom: 200px;
+    margin-top: -480px;
+    margin-bottom: 440px;
+    margin-right: 10px;
     
 }

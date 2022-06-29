@@ -2,21 +2,14 @@ import './Cadastro01.css';
 import { useState } from 'react';
 import Botao from '../componentes/Botao';
 import Img01 from '../componentes/Imagens/ooooo.png'
+import BotaoLink from '../componentes/BotaoLink';
+import sup from '../componentes/Imagens/sup.png'
 
-
-enum Estado {
-  inicial,
-  
-};
 
 
 
 const Cadastro01 = function () {
-  const [estado,setEstado] = useState (Estado.inicial);
-
-      const botaoSalvarClicado = function () {
-      };
-
+  
   return (
     <>
       
@@ -29,11 +22,10 @@ const Cadastro01 = function () {
             <input type="text" placeholder='Digite seu CPF' className='campo' />
 
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
-            <Botao texto='Salvar' clique={botaoSalvarClicado}/>
+            <BotaoLink path='/perfil'>Salvar</BotaoLink>
+           
           </div>
         </div>
-
-  
     </>
   );
 };
