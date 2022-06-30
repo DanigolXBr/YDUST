@@ -16,6 +16,7 @@
 .Botao:hover { 
   background-color: rgb(68, 68, 68);
   color:aliceblue;
+  box-shadow: 10px 5px 5px blue;
 }
 
 .BotaoFAB,
@@ -35,4 +36,5 @@
   position: fixed;
   right: 16px;
   bottom: 16px;
+  box-shadow: 10px 5px 5px blue;
 }

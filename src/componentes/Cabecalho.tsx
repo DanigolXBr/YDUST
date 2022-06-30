@@ -6,7 +6,7 @@ const Cabecalho = function () {
     return (
         <>
             <div className='cab'>
-                Ydust 
+               <a href="/" className='cab0'>Ydust</a>
             </div>
             <div className='butao'>
                 <BotaoLink path="/cadastro">Login</BotaoLink>

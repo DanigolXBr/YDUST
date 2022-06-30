@@ -4,6 +4,7 @@ import Botao from '../componentes/Botao';
 import Img01 from '../componentes/Imagens/ooooo.png'
 import BotaoLink from '../componentes/BotaoLink';
 import sup from '../componentes/Imagens/sup.png'
+import Suporte01 from '../componentes/suporte01';
 
 
 
@@ -22,14 +23,13 @@ const Cadastro01 = function () {
             <input type="text" placeholder='Digite seu CPF' className='campo' />
 
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
-            <BotaoLink path='/pagina-inicial'>Salvar</BotaoLink>
-           
-          </div >
-          
-        </div>
-        <div className='ajudinha'>
-          <a href='/suporte'><img src={sup} alt="" className='suporte01'/></a>
+            <BotaoLink path="/perfil">Salvar</BotaoLink>
           </div>
+        </div>
+
+        <Suporte01/>
+
+       
     </>
   );
 };
