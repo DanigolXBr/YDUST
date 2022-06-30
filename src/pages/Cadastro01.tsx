@@ -3,21 +3,14 @@ import { useState } from 'react';
 import Botao from '../componentes/Botao';
 import Img01 from '../componentes/Imagens/ooooo.png'
 import BotaoLink from '../componentes/BotaoLink';
+import sup from '../componentes/Imagens/sup.png'
+import Suporte01 from '../componentes/suporte01';
 
-
-enum Estado {
-  inicial,
-  
-};
 
 
 
 const Cadastro01 = function () {
-  const [estado,setEstado] = useState (Estado.inicial);
-
-      const botaoSalvarClicado = function () {
-      };
-
+  
   return (
     <>
       
@@ -34,7 +27,9 @@ const Cadastro01 = function () {
           </div>
         </div>
 
-  
+        <Suporte01/>
+
+       
     </>
   );
 };

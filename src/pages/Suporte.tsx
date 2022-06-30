@@ -1,5 +1,6 @@
 import './Suporte.css'
 import { FaInstagram } from 'react-icons/fa';
+import BotaoLink from '../componentes/BotaoLink';
 
 
 const Suporte = function (){
@@ -11,7 +12,7 @@ const Suporte = function (){
                 </div>
             </header>
             <div className='flex'>
-                <input type="text" placeholder='Como podemos ajudar?' className='campo' />
+                <input type="text" placeholder='Como podemos ajudar?' className='campo1' />
             </div>
             <div className='enviar'>
                 <button type='submit'>Enviar</button>
@@ -20,6 +21,7 @@ const Suporte = function (){
             <div className='instaflex'>
                 <FaInstagram className='insta'/>
             </div>
+            
         </>
     );
 };
