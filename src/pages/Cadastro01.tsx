@@ -2,6 +2,7 @@ import './Cadastro01.css';
 import { useState } from 'react';
 import Botao from '../componentes/Botao';
 import Img01 from '../componentes/Imagens/ooooo.png'
+import BotaoLink from '../componentes/BotaoLink';
 
 
 enum Estado {
@@ -29,7 +30,7 @@ const Cadastro01 = function () {
             <input type="text" placeholder='Digite seu CPF' className='campo' />
 
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
-            <Botao texto='Salvar' clique={botaoSalvarClicado}/>
+            <BotaoLink path="/perfil">Salvar</BotaoLink>
           </div>
         </div>
 
