@@ -9,11 +9,11 @@ const Perfil = function () {
         <img src= {Img01} className = 'fperfil'/>
         
         <div className='cadastro'>
-            Nome: Ana Julia Xavier
-            <br />
-            Senha: 12345678
+          <p>  Nome: Ana Julia Xavier</p>
             <br />
             Email: anajuliax2017@gmail.com
+            <br />
+            Senha: 12345678
             <br />
             CPF: 442.373.380-01
             <br />

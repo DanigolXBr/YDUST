@@ -9,9 +9,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 8%, rgba(119,32,127,1) 51%, rgb
 
 .cadastro {
     color: white;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color:grey;
+   
+    
+    
     font-weight: bold;
     width: 400px;
     display: flex;
