@@ -15,7 +15,7 @@ function App () {
         <Routes>
           <Route path="/" element={<Pgincial />} />
           <Route path='/cadastro' element={<Cadastro01 />} />
-          <Route path='/novaredacao' element={<Nredacao />} />
+          <Route path='/nova-redacao' element={<Nredacao/>} />
           <Route path= '/suporte' element= {<Suporte/>} />
           <Route path= '/perfil' element= {<Perfil/>} />
           <Route path= '/pagina-inicial' element= {<Pg01Page/>} />

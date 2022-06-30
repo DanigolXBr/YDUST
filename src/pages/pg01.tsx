@@ -13,7 +13,7 @@ const Pg01Page = function (){
 
          <div className='nova'>
              
-         <BotaoLink path='/novaredação'>Nova Redação</BotaoLink>
+         <BotaoLink path='/nova-redacao'>Nova Redação</BotaoLink>
          </div>
 
         
