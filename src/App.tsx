@@ -24,7 +24,7 @@ function App () {
           <Route path='/perfil' element= {<Perfil/>} />
           <Route path= '/suporte' element= {<Suporte/>} />
           <Route path= '/perfil' element= {<Perfil/>} />
-          <Route path= '/teste' element= {<Pg01Page/>} />
+          <Route path= '/pagina-principal' element= {<Pg01Page/>} />
         </Routes>
     </>
   );

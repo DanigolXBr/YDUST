@@ -17,3 +17,16 @@ body {
     margin-top: 620px;
 }
 
+.redacao {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: -600px;
+    
+}
+
+.r2,.r3 {
+    width: 300px;
+    margin-right: 150px;
+}
+
+
