@@ -15,11 +15,13 @@ const Suporte = function (){
                 <input type="text" placeholder='Como podemos ajudar?' className='campo1' />
             </div>
             <div className='enviar'>
-                <button type='submit'>Enviar</button>
+                <BotaoLink path=''>Enviar</BotaoLink>
                 
             </div>
             <div className='instaflex'>
                 <FaInstagram className='insta'/>
+               <a href="https://www.instagram.com/_anajulia.x/" className='ana'> @_anajulia.x</a>
+
             </div>
             
         </>
