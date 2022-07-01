@@ -23,7 +23,7 @@ const Cadastro01 = function () {
             <input type="text" placeholder='Digite seu CPF' className='campo' />
 
             <input type="text" placeholder='Digite sua Data de Nascimento' className='campo'/>
-            <BotaoLink path="/perfil">Salvar</BotaoLink>
+            <BotaoLink path="/pagina-principal">Salvar</BotaoLink>
           </div>
         </div>
 
