@@ -14,13 +14,11 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 8%, rgba(119,32,127,1) 51%, rgb
 .campo {
     display: flex;
     padding: 8px;
-
     width: 100%;
     max-width:600px;
-    aspect-ratio: 2 / 3 ;
-    height: auto;
+    height: 700px;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 10px;
     background-color: rgb(74, 74, 87);
     color: rgb(42, 199, 219);
     border-radius: 10px;
@@ -29,4 +27,18 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 8%, rgba(119,32,127,1) 51%, rgb
 .butao {
     display: flex;
     justify-content: end;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.tema {
+    
 }

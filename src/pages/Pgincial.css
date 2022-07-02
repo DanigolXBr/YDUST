@@ -30,3 +30,18 @@ button:hover{
     
 }
 
+.estudos {
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+    margin-right: -130px;
+}
+
+.esu1 {
+    width: 700px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+
+

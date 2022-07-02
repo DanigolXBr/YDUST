@@ -8,6 +8,7 @@ import Pgincial from './pages/Pgincial';
 import Perfil from './pages/Perfil';
 import Suporte from './pages/Suporte';
 import Pg01Page from './pages/pg01';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App () {
   return (
