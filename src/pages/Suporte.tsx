@@ -1,9 +1,21 @@
 import './Suporte.css'
 import { FaInstagram } from 'react-icons/fa';
 import BotaoLink from '../componentes/BotaoLink';
+import Botao from '../componentes/Botao';
+
+
+
 
 
 const Suporte = function (){
+
+    const botaoEnviarClicado = function (){
+        alert ('Sua Dúvida foi enviada')
+    }
+
+
+
+
     return (
         <>
             <header className='flex'>
@@ -15,7 +27,7 @@ const Suporte = function (){
                 <input type="text" placeholder='Como podemos ajudar?' className='campo1' />
             </div>
             <div className='enviar'>
-                <BotaoLink path=''>Enviar</BotaoLink>
+                <Botao texto={'Enviar'} clique={botaoEnviarClicado}></Botao>
                 
             </div>
             <div className='instaflex'>

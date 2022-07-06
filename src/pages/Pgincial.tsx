@@ -17,19 +17,18 @@ const Pgincial = function (){
                 <input type="text" placeholder='Pesquisar'/>
             </div>
         
-            
-            <div className='Introducao'>
-                <h1>Corrija sua redação em um instante</h1>
+                <div className='Introducao'>
+                    <h1>Corrija sua redação em um instante</h1>
 
-                <p>Ydust é um programa onde os alunos cadastrados conseguem aprimorar sua redação e compartilhar <br />
-                conhecimentos, de forma rápida e gratuita.</p>
-            </div>
+                    <p>Ydust é um programa onde os alunos cadastrados conseguem aprimorar sua redação e compartilhar <br />
+                    conhecimentos, de forma rápida e gratuita.</p>
+                </div>
 
 
-            <div className='estudos'>
-                <img src={i009} alt="estudos" className='esu1'/>
-            </div>
-
+                <div className='estudos'>
+                    <img src={i009} alt="estudos" className='esu1'/>
+                </div>
+           
         </>
     );
 };

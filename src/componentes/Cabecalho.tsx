@@ -9,7 +9,7 @@ const Cabecalho = function () {
                <a href="/" className='cab0'>Ydust</a>
             </div>
             <div className='butao'>
-                <BotaoLink path="/cadastro">Login</BotaoLink>
+                <BotaoLink path="/cadastro">Cadastro</BotaoLink>
                 
             </div>
         </>

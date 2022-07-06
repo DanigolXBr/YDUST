@@ -1,11 +1,14 @@
 import './Perfil.css';
 import Img01 from '../componentes/Imagens/foto perfil.png';
 import Img02 from '../componentes/Imagens/Redacao.png';
+import Botao from '../componentes/Botao';
+import BotaoLink from '../componentes/BotaoLink';
 
 const Perfil = function () {
     return (
         <>
-        <p>oi</p>
+        <BotaoLink path='/pagina-inicial' className='voltar'>Voltar</BotaoLink>
+
         <img src= {Img01} className = 'fperfil'/>
         
         <div className='cadastro'>
